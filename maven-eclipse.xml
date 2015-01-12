@@ -1,0 +1,8 @@
+<project default="copy-resources">
+  <target name="init"/>
+  <target name="copy-resources" depends="init">
+    <copy todir="target/classes/org/flysnow/cloud/buildmeta/domain/dao" filtering="true">
+      <fileset dir="src/main/java/org/flysnow/cloud/buildmeta/domain/dao" includes="*.xml" excludes="**/*.java"/>
+    </copy>
+  </target>
+</project>
