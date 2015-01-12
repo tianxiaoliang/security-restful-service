@@ -1,4 +1,4 @@
-package org.flysnow.cloud.buildmeta.wsclient;
+package com.cloud.service.wsclient;
 
 import org.scribe.builder.api.DefaultApi10a;
 import org.scribe.model.Token;

@@ -1,17 +1,17 @@
-package org.flysnow.cloud.buildmeta.wsclient;
+package com.cloud.service.wsclient;
 
 import java.util.List;
 import java.util.Map;
 
 import org.apache.log4j.Logger;
-import org.flysnow.cloud.buildmeta.requests.RegisterFarmResultRequest;  
 import org.scribe.builder.ServiceBuilder;
 import org.scribe.model.OAuthRequest;
 import org.scribe.model.Response;
 import org.scribe.model.Token;
 import org.scribe.model.Verb;
 import org.scribe.oauth.OAuthService;
- 
+
+import com.cloud.service.requests.RegisterFarmResultRequest;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;

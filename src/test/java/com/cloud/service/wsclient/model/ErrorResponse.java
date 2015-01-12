@@ -1,4 +1,4 @@
-package org.flysnow.cloud.buildmeta.wsclient.ui.model;
+package com.cloud.service.wsclient.model;
 
 public class ErrorResponse {
     private int code;

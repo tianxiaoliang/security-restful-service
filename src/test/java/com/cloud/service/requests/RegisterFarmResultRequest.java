@@ -1,4 +1,4 @@
-package org.flysnow.cloud.buildmeta.requests;
+package com.cloud.service.requests;
  
  
 import com.cloud.service.domain.model.Farm;
